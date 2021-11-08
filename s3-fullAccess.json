@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "s3comuncacaoprod",
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::name_bucket1/*",
+                "arn:aws:s3:::name_bucket1",
+                "arn:aws:s3:::name_bucket2/*",
+                "arn:aws:s3:::name_bucket2",
+                "arn:aws:s3:::name_bucket3",
+                "arn:aws:s3:::name_bucket3/*",
+                "arn:aws:s3:::name_bucket4",
+                "arn:aws:s3:::name_bucket4/*"
+            ]
+        }
+    ]
+}
